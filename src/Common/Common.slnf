@@ -1,0 +1,9 @@
+{
+  "solution": {
+    "path": "..\\PhnTnTi.All.sln",
+    "projects": [
+      "Common\\src\\Common\\PhnTnTi.Common.csproj",
+      "Common\\src\\Common.Abstractions\\PhnTnTi.Common.Abstractions.csproj",	
+    ]
+  }
+}
