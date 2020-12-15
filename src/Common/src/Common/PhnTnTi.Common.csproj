@@ -8,6 +8,9 @@
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="5.0.0" />
 
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.0" />
+
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="5.0.0" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Common.Abstractions\PhnTnTi.Common.Abstractions.csproj" />
