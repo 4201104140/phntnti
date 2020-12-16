@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Description>Steeltoe common library for network interaction</Description>
+    <PackageTags>NET Core;NET Framework</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common\PhnTnTi.Common.csproj" />
+  </ItemGroup>
+
+</Project>
