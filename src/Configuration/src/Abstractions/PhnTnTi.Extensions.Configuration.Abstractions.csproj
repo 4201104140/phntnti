@@ -5,5 +5,8 @@
     <Description>Application configuration abstractions</Description>
     <PackageTags>configuration</PackageTags>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Common\src\Common.Abstractions\PhnTnTi.Common.Abstractions.csproj" />
+  </ItemGroup>
 
 </Project>

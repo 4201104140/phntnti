@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.1</TargetFrameworks>
+    <RootNamespace>PhnTnTi.Connector</RootNamespace>
+    <Description>Abstractions for working with backing services</Description>
+    <PackageTags>connectors;backing services</PackageTags>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Common\src\Common.Abstractions\PhnTnTi.Common.Abstractions.csproj" />
+    <ProjectReference Include="..\..\..\Common\src\Common\PhnTnTi.Common.csproj" />
+    <ProjectReference Include="..\..\..\Configuration\src\Abstractions\PhnTnTi.Extensions.Configuration.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

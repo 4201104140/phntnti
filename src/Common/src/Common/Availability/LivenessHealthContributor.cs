@@ -1,6 +1,5 @@
-﻿using System;
+﻿using PhnTnTi.Common.HealthChecks;
 using System.Collections.Generic;
-using System.Text;
 
 namespace PhnTnTi.Common.Availability
 {
@@ -8,6 +7,14 @@ namespace PhnTnTi.Common.Availability
     {
         public override string Id => "liveness";
 
-        private readonly ApplicationAvailability availab)
+        private readonly ApplicationAvailability _availability;
+
+        public LivenessHealthContributor(ApplicationAvailability availability)
+            : base(new Dictionary<IAvailabilityState, HealthStatus> { { LivenessState.Correct, HealthStatus.UP }, { LivenessState.Broken, HealthStatus.DOWN } })
+        {
+            _availability = availability;
+        }
+
+        protected override IAvailabilityState GetState() => _availability.GetLivenessState();
     }
 }
