@@ -47,7 +47,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeoutManager", "src\micro
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.IO.RecyclableMemoryStream", "src\microsoft\src\Microsoft.IO.RecyclableMemoryStream\Microsoft.IO.RecyclableMemoryStream.csproj", "{02A42AFD-4A5A-461C-82DD-AE2A8EA3EA8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.IO.RecyclableMemoryStream.Test", "src\microsoft\test\Microsoft.IO.RecyclableMemoryStream.Test\Microsoft.IO.RecyclableMemoryStream.Test.csproj", "{EA03416D-AC8C-4B1C-A8DB-3FF112084B93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.IO.RecyclableMemoryStream.Test", "src\microsoft\test\Microsoft.IO.RecyclableMemoryStream.Test\Microsoft.IO.RecyclableMemoryStream.Test.csproj", "{EA03416D-AC8C-4B1C-A8DB-3FF112084B93}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Orleans", "Orleans", "{346C2F83-E1A8-4C41-B7D7-423F245BF6CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
